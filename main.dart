@@ -22,9 +22,7 @@ class MyApp extends StatelessWidget {
             //child: Text('Hello World'),
             child: Column(
           children: [
-            Image(
-                image: NetworkImage(
-                    'https://i.pinimg.com/736x/31/16/45/3116452951cc0d0a3cd8a881bb26448f.jpg')),
+            Image(image: AssetImage('images/logo.png')),
             Text('Hello World'),
           ],
         )),
